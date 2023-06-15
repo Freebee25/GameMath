@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background2"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka2"
+            android:layout_below="@id/playButton1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka3"
+            android:layout_below="@id/playButton2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka4"
+            android:layout_below="@id/playButton3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 4" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka5"
+            android:layout_below="@id/playButton4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 5" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka6"
+            android:layout_below="@id/playButton5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 6" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka7"
+            android:layout_below="@id/playButton6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 7" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka8"
+            android:layout_below="@id/playButton7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 8" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka9"
+            android:layout_below="@id/playButton8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 9" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka10"
+            android:layout_below="@id/playButton9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 10" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka20"
+            android:layout_below="@id/playButton10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView20"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 20" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka30"
+            android:layout_below="@id/playButton20"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView20"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 30" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka40"
+            android:layout_below="@id/playButton30"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView40"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 40" />
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka50"
+            android:layout_below="@id/playButton40"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 50" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka60"
+            android:layout_below="@id/playButton50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView60"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 60" />
+
+        <ImageView
+            android:id="@+id/imageView70"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka70"
+            android:layout_below="@id/playButton60"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView70"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 70" />
+
+        <ImageView
+            android:id="@+id/imageView80"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka80"
+            android:layout_below="@id/playButton70"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView80"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 80" />
+
+        <ImageView
+            android:id="@+id/imageView90"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka90"
+            android:layout_below="@id/playButton80"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView90"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 90" />
+
+        <ImageView
+            android:id="@+id/imageView100"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/angka100"
+            android:layout_below="@id/playButton90"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/playButton100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView100"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Angka 100" />
+
+
+
+    </RelativeLayout>
+</ScrollView>
